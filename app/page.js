@@ -27,7 +27,7 @@ function Login() {
         password: password
       });
 
-      let response = await fetch("https://gamingbackend-production-b51f.up.railway.app/api/registration/login", {
+      let response = await fetch("https://gamingbackend-production-00d6.up.railway.app/api/registration/login", {
         method: "POST",
         body: bodyContent,
         headers: headersList
