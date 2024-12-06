@@ -13,7 +13,7 @@ const TableComponent = () => {
   
   useEffect(() => {
     // Fetch data from the API
-    fetch(`https://gamingbackend-production-b51f.up.railway.app/api/totalBetAmounts/transection/${JSON.parse(localStorage.getItem("userData"))["profile"]["_id"]}`)
+    fetch(`https://gamingbackend-production-00d6.up.railway.app/api/totalBetAmounts/transection/${JSON.parse(localStorage.getItem("userData"))["profile"]["_id"]}`)
       .then(response => response.json())
       .then(data =>  {
    const sortedData = [...data].sort((a, b) => {
