@@ -14,7 +14,7 @@ function page() {
 
 
     let reqOptions = {
-      url: `https://gamingbackend-production-b51f.up.railway.app/api/registration/addwinner/${JSON.parse(localStorage.getItem("userData"))["profile"]["_id"]}`,
+      url: `https://gamingbackend-production-00d6.up.railway.app/api/registration/addwinner/${JSON.parse(localStorage.getItem("userData"))["profile"]["_id"]}`,
       method: "GEt",
       headers: headersList,
     }
