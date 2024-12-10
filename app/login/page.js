@@ -602,7 +602,7 @@ let isFullscreenRequested = false;
                   color: "#15ff15",
                   fontSize: 28,
                   fontWeight: 900, margin: 0
-                }}><b>HONEST 2X ONLINE MARKETING</b></h3>
+                }}><b>HONEST.9 ONLINE MARKETING</b></h3>
                 <span className="headerTime" style={{}}>
                   <div className="col-md-12 p-l-0">
                     <div className="col-md-5 p-l-0">
@@ -969,7 +969,7 @@ let isFullscreenRequested = false;
             </div>
             <div style={{ display: "none" }}>
               <div id="customers" ref={printRef} style={{ width: "350px", margin: "auto" }}>
-                <h4 className="text-center" style={{ textAlign: 'center', margin: 2 }}><b>HONEST 2X ONLINE MARKETING</b></h4>
+                <h4 className="text-center" style={{ textAlign: 'center', margin: 2 }}><b>HONEST.9 ONLINE MARKETING</b></h4>
                 <h6 className="text-center" style={{ textAlign: 'center', margin: 0 }}>RECEIPT No: <b>{slip?.num}</b> ID: 04567</h6>
                 <h6 className="text-center" style={{ textAlign: 'center', margin: 2 }}>
                   PURCHASE DATE: <b >{new Date(slip?.createdAt)?.toLocaleDateString()}</b> {new Date(slip?.createdAt)?.toLocaleTimeString()}
@@ -1066,7 +1066,7 @@ let isFullscreenRequested = false;
             </div>
             <div style={{ display: "none" }} >
               <div id="customersq1" ref={printRef1} style={{ width: "300px", margin: "auto" }} >
-                <h3 className="text-center" style={{ textAlign: 'center' }}><b>HONEST 2X ONLINE MARKETING</b></h3>
+                <h3 className="text-center" style={{ textAlign: 'center' }}><b>HONEST.9 ONLINE MARKETING</b></h3>
 
                 <h4 className="text-center" style={{ textAlign: 'center' }}>
                   RECEIPT No: <b>{Array.isArray(winerslip?.data) ? winerslip?.data[0]?._id : winerslip?.data?._id}</b> <br /> ID: 04567
@@ -1159,7 +1159,7 @@ let isFullscreenRequested = false;
                           gap: 21
                         }}
                       >
-                        <h3 className="text-center" style={{ textAlign: 'center' }}><b>HONEST 2X ONLINE MARKETING</b></h3>
+                        <h3 className="text-center" style={{ textAlign: 'center' }}><b>HONEST.9 ONLINE MARKETING</b></h3>
                         <div className="d-flex" style={{ justifyContent: "center", border: "1px solid #000" }}>
                           <input
                             type="number"
